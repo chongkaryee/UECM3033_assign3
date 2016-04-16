@@ -25,11 +25,17 @@ In task 2, firstly, I import numpy, scipy and matpltlib.pyplot from library. Sec
 
 Put your graphs here and explain.
 Initial condition of y0=0.1, y1=1.0
+
 ![Graph of prey vs. predator (1).png](Graph of prey vs. predator (1).png)
+
 ![Graph of y1 and y0 against time (1).png](Graph of y1 and y0 against time (1).png)
+
 Initial condition of y0=0.11, y1=1.0
+
 ![Graph of prey vs. predator (2).png](Graph of prey vs. predator (2).png)
+
 ![Graph of y1 and y0 against time (2).png](Graph of y1 and y0 against time (2).png)
+
 From the graphs above, we can conclude that there is inverse relationship between prey and predator. As naturally, when the number of predators increases, number of prey deceases. Over a period, we can see that the number of prey increased, number of predator can be decreased and number of prey can be larger than the number of predator in which inverse relationship shown. However, there is only a little and unsignificant changes in results for the changes in initial condition. 
 
 Is the system of ODE sensitive to initial condition? Explain.
