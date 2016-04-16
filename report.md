@@ -26,7 +26,7 @@ In task 2, firstly, I import numpy, scipy and matpltlib.pyplot from library. Sec
 Put your graphs here and explain.
 Initial condition of y0=0.1, y1=1.0
 
-![Graph of prey vs. predator (1).png](Graph of prey vs. predator (1).png)
+![Graph of prey vs. predator (1).png](C:\Users\YuXuan\assign3\UECM3033_assign3\Graph of prey vs. predator (1).png)
 
 ![Graph of y1 and y0 against time (1).png](Graph of y1 and y0 against time (1).png)
 
