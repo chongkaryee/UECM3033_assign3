@@ -6,8 +6,11 @@ import sympy as sy
 # DO NOT CHANGE THE NAME OF gausslegendre() function
 def gausslegendre(f, a, b, n=20):
     ans = 0
-    # Edit here to implement your code
-
+    
+    x, w=np.polynomial.legendre.leggauss(n)
+    # Translate x values from the interval [-1, 1] to [a, b]
+    t = 0.5*(x + 1)*(b - a) + a
+    ans = sum(w * f(t))*0.5*(b-a)
     return ans
 
 if __name__ == "__main__":
@@ -21,3 +24,4 @@ if __name__ == "__main__":
     
     print('Answer:                    I = ', my_integral())
     print('Your implementation gives: I = ', gausslegendre(f, 0,1))
+ 
